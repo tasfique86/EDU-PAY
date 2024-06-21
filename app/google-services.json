@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432023450146",
+    "project_id": "edu-pay-584f6",
+    "storage_bucket": "edu-pay-584f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432023450146:android:feb51a40cf1c7669e0507b",
+        "android_client_info": {
+          "package_name": "com.example.edupay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzxs7eGgiluKuguDT_qGMgEMqKdNCQDaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

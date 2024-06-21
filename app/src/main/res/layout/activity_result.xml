@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    tools:context=".Result">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+       >
+
+       <View
+           android:id="@+id/top_view"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:background="@drawable/bg_upper_shape"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Acadymic Result"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:layout_marginTop="-100sp"
+           android:layout_gravity="center_horizontal"
+           android:textColor="@color/white"
+           />
+
+       <LinearLayout
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="80dp"
+           android:layout_marginLeft="40dp"
+           android:elevation="5dp"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1st Semeter :"
+               android:textSize="25sp"
+               android:layout_marginLeft="20dp"
+               android:textColor="@color/black"
+               />
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Null"
+               android:textColor="@color/black"
+               android:layout_marginLeft="20dp"
+               android:textSize="25dp"
+               android:id="@+id/Edittext_semester_result1"
+               />
+
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="40dp"
+           android:elevation="5dp"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="2nd Semeter :"
+               android:textSize="25sp"
+               android:layout_marginLeft="20dp"
+               android:textColor="@color/black"
+               />
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Null"
+               android:layout_marginLeft="20dp"
+               android:textSize="25dp"
+               android:id="@+id/Edittext_semester_result2"
+               android:textColor="@color/black"
+               />
+
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:elevation="5dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="3nd Semeter :"
+               android:textSize="25sp"
+               android:layout_marginLeft="20dp"
+               android:textColor="@color/black"
+               />
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Null"
+               android:layout_marginLeft="20dp"
+               android:textSize="25dp"
+               android:id="@+id/Edittext_semester_result3"
+               android:textColor="@color/black"
+               />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:elevation="5dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="4th Semeter :"
+               android:textSize="25sp"
+               android:layout_marginLeft="20dp"
+               android:textColor="@color/black"
+               />
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Null"
+               android:layout_marginLeft="20dp"
+               android:textSize="25dp"
+               android:id="@+id/Edittext_semester_result4"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:elevation="5dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="5th Semeter :"
+               android:textSize="25sp"
+               android:layout_marginLeft="20dp"
+               android:textColor="@color/black"
+               />
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Null"
+               android:layout_marginLeft="20dp"
+               android:textSize="25dp"
+               android:id="@+id/Edittext_semester_result5"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:elevation="5dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="6th Semeter :"
+               android:textSize="25sp"
+               android:layout_marginLeft="20dp"
+               android:textColor="@color/black"
+               />
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Null"
+               android:layout_marginLeft="20dp"
+               android:textSize="25dp"
+               android:id="@+id/Edittext_semester_result6"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:elevation="5dp"
+
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="7th Semeter :"
+               android:textSize="25sp"
+               android:layout_marginLeft="20dp"
+               android:textColor="@color/black"
+               />
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Null"
+               android:layout_marginLeft="20dp"
+               android:textSize="25dp"
+               android:id="@+id/Edittext_semester_result7"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:elevation="5dp"
+
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:text="8th Semeter :"
+               android:textSize="25sp"
+               android:textColor="@color/black"
+               />
+
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Null"
+               android:layout_marginLeft="20dp"
+               android:textSize="25dp"
+               android:id="@+id/Edittext_semester_result8"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+
+</ScrollView>

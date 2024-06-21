@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SemesterFee">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+
+       <View
+           android:id="@+id/top_view"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_marginTop="-20dp"
+           android:background="@drawable/bg_upper_shape"
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="No semester"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textSize="35sp"
+           android:layout_marginTop="-100dp"
+           android:id="@+id/textview_semesterNo"
+
+           />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="100dp"
+           android:orientation="horizontal"
+           android:background="@drawable/edit_text_rounded_corner"
+           android:elevation="5dp"
+
+           android:layout_marginRight="30dp"
+           android:layout_marginLeft="30dp"
+
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Fee :"
+               android:textSize="40sp"
+               android:textColor="@color/black"
+               android:layout_marginLeft="60dp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/textView_fee"
+               android:textSize="40sp"
+               android:layout_marginLeft="20dp"
+               android:hint="amount"
+               android:textColor="@color/black"
+               />
+
+
+
+
+       </LinearLayout>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="30sp"
+           android:text="bKash Number :"
+           android:textColor="@color/black"
+           android:layout_marginTop="50dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="30sp"
+           android:text="01XY-XXXXXXX"
+           android:textColor="@color/black"
+           android:background="@drawable/edit_text_rounded_corner"
+           android:layout_marginTop="10dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Enter your bKash number :"
+           android:textSize="25sp"
+           android:layout_marginTop="50dp"
+           android:textColor="@color/black"
+           />
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_weight="5"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           android:gravity="center"
+           >
+
+           <com.hbb20.CountryCodePicker
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               app:ccp_showFlag="false"
+               app:ccp_showNameCode="false"
+               android:id="@+id/fee_countrycode"
+               />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:hint="Mobile"
+               android:textColorHint="@color/light_gray"
+               android:inputType="phone"
+               android:textColor="@color/black"
+               android:background="@drawable/edit_text_rounded_corner"
+               android:elevation="5dp"
+               android:layout_margin="10dp"
+               android:id="@+id/bkashnumber"
+               />
+
+
+
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Enter your Transation id :"
+           android:textSize="25sp"
+           android:layout_marginTop="10dp"
+
+           android:textColor="@color/black"
+
+           />
+
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="30sp"
+           android:hint="bKash transection id"
+           android:layout_marginTop="10dp"
+           android:id="@+id/transection"
+           android:background="@drawable/edit_text_rounded_corner"
+           android:textColor="@color/black"
+           android:elevation="5dp"
+           />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="  Submit  "
+           android:textSize="20dp"
+           android:layout_marginTop="15dp"
+           android:id="@+id/submit_buttun"
+
+           />
+
+
+
+   </LinearLayout>
+
+
+
+</ScrollView>

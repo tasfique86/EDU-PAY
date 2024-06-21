@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".F_Remove">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <View
+            android:id="@+id/top_view"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/bg_upper_shape"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F. Removal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_marginTop="-100dp"
+            android:id="@+id/textview_semesterNo"
+
+            />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:gravity="center_horizontal"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester No :"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_fremove_semester"
+                android:textSize="25sp"
+                android:hint="No"
+                android:textColor="@color/black"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:gravity="center_horizontal"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total course :"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_fremove_fee"
+                android:textSize="25sp"
+                android:hint="total"
+                android:textColor="@color/black"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Next  "
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/submit_fremove_buttun"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
